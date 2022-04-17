@@ -49,7 +49,7 @@ public class Udfps extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String UDFPS_CUSTOMIZATION = "udfps_customization";
-
+    private PreferenceCategory mUdfpsCustomization;
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);

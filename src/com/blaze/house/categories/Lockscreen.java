@@ -20,7 +20,7 @@ import android.content.ContentResolver;
 import android.os.Bundle;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-
+import androidx.preference.PreferenceCategory;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -66,9 +66,13 @@ public class Lockscreen extends SettingsPreferenceFragment implements
         return true;
     }
 
+    @Override
+    public void onCreate(Bundle icicle) {
+           super.onCreate(icicle);
+    final PreferenceScreen prefSet = getPreferenceScreen();
     mUdfpsCategory = findPreference(UDFPS_CATEGORY);
         if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
             prefSet.removePreference(mUdfpsCategory);
         }
-
+    }
 }

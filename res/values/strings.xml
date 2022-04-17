@@ -41,7 +41,7 @@
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="themes_category">Themes</string>
-    <string name="build_tweaks_summary_title">WIP!!!!!!!</string>
+    <string name="build_tweaks_summary_title">Get Amazed with BLAZE!!!</string>
     <string name="listview">ListView</string>
     <string name="udfps_category">UDFPS</string>
 
@@ -121,17 +121,6 @@
     <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
     <string name="volte_vowifi_override_title">VoWiFi override</string>
     <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available</string>
-    
-    <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet Engine</string>
-    <string name="monet_engine_summary">Customise monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
@@ -172,9 +161,6 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
-    
-    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
     
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Brightness slider</string>
